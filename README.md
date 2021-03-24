@@ -40,16 +40,16 @@ truffle migrate
 truffle console
 ```
 
-- ToDoList is the name of the smart contract that is created in migrations folder. We retrive deployed copy of smart contract and assign it to the variable todoList
+- DStorage is the name of the smart contract that is created in migrations folder. We retrive deployed copy of smart contract and assign it to the variable dstorage
 
 ```
-todoList = await ToDoList.deployed()
+dstorage = await DStorage.deployed()
 ```
 
 - We can access smart contract properties
 
 ```
-todoList.address
+dstorage.address
 ```
 
 - deploying new copy to the blockchain (if we added some new code)
